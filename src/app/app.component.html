@@ -1,16 +1,16 @@
-<meta http-equiv="X-Frame-Options" content="allow">
-<div class="h-100 row justify-content-around align-items-center" style="margin-top: 10px">
+<div style="margin: 10px 10px 10px 10px;  max-width: 100%;" class=" row justify-content-around align-items-center">
   <mat-card>
     <mat-card-title>
-      Video
+      <h3 style="font-family: 'Economica', sans-serif; font-size: 1.25em;">DISCOVER</h3>
     </mat-card-title>
 
     <mat-card-content>
-      <iframe class="vertical-center-row" type="text/html" width="853" height="480" [src]="targetUrl | safe" frameborder="0" allowFullScreen></iframe>
-      
+      <iframe class="vertical-center-row" type="text/html" width="853" height="480" [src]="targetUrl | safe" style="max-height: 100%; max-width: 100%; "
+        frameborder="0" allowFullScreen></iframe>
     </mat-card-content>
-    <mat-card-actions >
-      <button mat-button color="primary" style="margin-left: 50%; transform: translateX(-50%)" (click)="shuffle()">Shuffle</button>
+    <mat-card-actions>
+      <div class='shuffle-button -colorShuffle center' style="width: 20px; min-width: fit-content; margin-left: 50%; transform: translateX(-50%); font-family: 'Economica', sans-serif; font-size: 1.2em"
+        (click)="shuffle()">{{shuffleDisplay}}</div>
     </mat-card-actions>
   </mat-card>
 </div>

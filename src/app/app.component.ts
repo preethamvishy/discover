@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
   youTubeBase: string = 'https://www.youtube.com/embed/';
   youTubeParams: string = '&amp;t=15&amp;wmode=transparent&amp;autoplay=1&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;showsearch=0&amp;autohide=1&amp;controls=0&amp;wadsworth=1';
   targetUrl: string;
+  shuffleDisplay: string = "SHUFFLE";
 
   constructor(private http: Http)
   {
