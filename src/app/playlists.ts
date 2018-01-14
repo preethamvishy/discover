@@ -5,6 +5,11 @@ export var playlists = [
       "max": 543
     },
     {
+      "name": "top-tracks-music",
+      "id": "PLFgquLnL59amxybxjut_5IbsOOuwB8agz",
+      "max": 473
+    },
+    {
       "name": "billboard",
       "id": "PL55713C70BA91BD6E",
       "max": 200
