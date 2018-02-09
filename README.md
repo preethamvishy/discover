@@ -1,12 +1,14 @@
 # Discover
 
-Discover new music, tap to the latest hot beats or end up listening to a song that you haven't heard in a while. DISCOVER is an Angular 4 project that plays random songs from your favourite online service. DISCOVER currently supports YouTube but the project is under active development.
+DISCOVER is an Angular 4 project  (includes Electron support) that plays random songs from your favourite online service. DISCOVER currently supports YouTube but the project is under active development.
+
+[![N|Solid](https://i.imgur.com/DHVFhA1.jpg)](#)
 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Usage
 
-## Build
+Run `ng serve` and navigate to `http://localhost:4200/`. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run`ng build --prod && electron .` to run as a desktop application.
+
